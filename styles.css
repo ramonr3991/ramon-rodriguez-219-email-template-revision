@@ -1,0 +1,71 @@
+body{
+  font-family: 'Mukta', sans-serif;
+  font-size: larger;
+}
+.row{
+  box-shadow: 5px 15px 10px orange;
+  border-width: 50px;
+  border-radius: 15px;
+  border-style: none;
+}
+.well {
+  margin-top: auto 0;
+  text-align: center;
+}
+
+.list-group, .text-dark, .list{
+  box-shadow: 5px 15px 20px coral;
+  border-radius: 10%;
+  max-width: 300px;
+  border-spacing: 12px;
+
+}
+.list {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+nav {
+  max-width: 100vh;
+}
+
+.first-card {
+  margin-top: 60px;
+  box-shadow: 5px 10px 10px coral;
+  border-radius: 10%;
+  max-width: 300px;
+  border-spacing: 12px;
+}
+
+.card{
+  margin-top: 60px;
+  box-shadow: 5px 10px 10px coral;
+  border-radius: 10%;
+  max-width: 300px;
+  border-spacing: 12px;
+}
+
+.from {
+  font-size: 14px;
+  margin: none;
+}
+
+.to {
+  font-size: 14px;
+}
+
+.comment {
+  height: 200px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.col-sm-6, .bg-light, .w-100, .right{
+  border-color: crimson;
+  border-radius: 15px;
+}
+
+.col-sm-3, .bg-dark, .text-light, .d-inline-block, .sidebar{
+  border-color: crimson;
+  border-radius: 15px;
+}

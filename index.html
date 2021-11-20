@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <title>Dodgson Net Mail: Dennis Nedry's Inbox</title>
+  </head>
+  <body>
+      <div class="container w-100 mt-3 border border-dark">
+          <div class="row">
+              <div class="col-sm-3 bg-dark text-light d-inline-block sidebar">
+                  <p class="mt-3">
+                  <img src="logo.svg" alt="logo"></img>
+                    
+                    Welcome Dennis Nedry</p>
+                    <p class="win">Success and Win</p>
+                  <button type="button" class="btn btn-secondary mx-auto mt-3">Compose</button>
+                <ul class="list-group text-dark list">
+                    <li class="list-group-item">Inbox (1000)</li>
+                    <li class="list-group-item">Important</li>
+                    <li class="list-group-item">Drafts</li>
+                    <li class="list-group-item">Sent</li>
+                    <li class="list-group-item">Trash</li>
+                </ul>
+              </div>
+              <div class="col-sm-3 bg-info d-inline-block middle">
+                <div class="form-group has-search mt-3">
+                  <span class="form-control-feedback"></span>
+                  <input type="text" class="form-control" placeholder="Search">
+                  <button type="button" class="btn btn-secondary btn-sm p-1 float-right">Submit</button>
+                
+                </div>
+                <!--<input type="text" placeholder="Search..." class="mt-3">
+                <button type="button" class="btn btn-secondary btn-sm p-1">Submit</button>-->
+                    <div class="card w-100 first-card">
+                        <span class="date-time pl-2">June 8, 1999</span>
+                        <h6 class="pl-3 mt-1">Windows 2000 Upgrade Pathline</h6> 
+                        <p class="pl-4">Dennis, what is your plan..</p>
+                      </div>
+
+                      <div class="card w-100 mt-4 mb-3 border border-warning bg-secondary text-light">
+                          <span class="date-time pl-2">June 4, 1999</span>
+                          <h6 class="pl-3 mt-1">Urgent Message</h6> 
+                          <p class="pl-4">Nedry, do you have the ideas...</p>
+                        </div>
+
+                        <div class="card w-100 mt-3 mb-2">
+                          <span class="date-time pl-2">June 3, 1999</span>
+                          <h6 class="pl-3 mt-1">Enterprise Rent-a-Car</h6> 
+                          <p class="pl-4 mt-1">Your Reservation for....</p>
+                        </div>
+
+                        <div class="card w-100 mt-3 mb-2">
+                          <span class="date-time pl-2">June 3, 1999</span>
+                          <h6 class="pl-3 mt-1">MSDN</h6> 
+                          <p class="pl-4 mt-1">MSDN Membership Confirmation....</p>
+                        </div>
+
+                        <div class="card w-100 mt-3 mb-2">
+                          <span class="date-time pl-2">June 2, 2029</span>
+                          <h6 class="pl-3 mt-1">John Doe</h6> 
+                          <p class="pl-4 mt-1">Check your notes....</p>
+                        </div>
+
+                        <div class="card w-100 mt-3 mb-2">
+                          <span class="date-time pl-2">June 2, 2029</span>
+                          <h6 class="pl-3 mt-1">Lewis Dodgson</h6> 
+                          <p class="pl-4 mt-1">Lunch and Conversation....</p>
+                        </div>
+
+                        <div class="card w-100 mt-3 mb-2">
+                          <span class="date-time pl-2">June 1, 2029</span>
+                          <h6 class="pl-3 mt-1">Doc Armstrong</h6> 
+                          <p class="pl-4 mt-1">Critical Information....</p>
+                        </div>
+              </div>
+              <div class="col-sm-6 bg-light w-100 right">
+                  <div class="mt-3">
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-inbox float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M3.81 4.063A1.5 1.5 0 0 1 4.98 3.5h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1-.78.624l-3.7-4.624a.5.5 0 0 0-.39-.188H4.98a.5.5 0 0 0-.39.188L.89 9.312a.5.5 0 1 1-.78-.624l3.7-4.625z"/>
+                          <path fill-rule="evenodd" d="M.125 8.67A.5.5 0 0 1 .5 8.5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124a1.5 1.5 0 0 1-1.489 1.314H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393zm.941.83l.32 2.562a.5.5 0 0 0 .497.438h12.234a.5.5 0 0 0 .496-.438l.32-2.562H10.45a2.5 2.5 0 0 1-4.9 0H1.066z"/>
+                      </svg>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                          <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                        </svg>
+
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z"/>
+                        </svg>
+
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg>
+                      
+                  </div>
+                      <p class="from">From: dodgsonl@dodgson.net</p>
+                      <p class="to">To: nedryd@dodgson.net</p>
+                      <h3>Urgent Message</h3>
+                          <p class="mt-3"> 
+                          
+                            Nedry, do you have the ideas for a cost-effective solution
+                            for the Windows 2000 upgrade timeline? I am wondering how long will the upgrade
+                            take and how it will affect operations as well as meeting and preparing for Y2K
+                            compliance? I hope your presentation will give assurance and straightforward 
+                            answers for our Company and I expect it to be a quality presentation before
+                            we commence on the upgrade path. 
+
+                      
+                      
+                      
+                            <p class="mt-3">Regards,
+                            Lewis Dodgson</p>
+                          </p>
+                      
+                      <textarea name="comment" class="comment"></textarea>
+                      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-paperclip float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                        </svg>
+                      
+                      <button type="button" class="btn btn-secondary mb-2">Send</button>
+                      
+              </div>
+          </div>
+      </div>  
+  </body>
+</html>
